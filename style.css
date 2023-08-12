@@ -1,0 +1,165 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.sidebar{
+    width: 24%;
+    height: 100vh;
+    background-color: #E4F8F4;
+    border-radius: 20px;
+}
+body{
+    display: flex;
+    background-color: #c8f8f5;
+    font-family: 'Roboto', sans-serif;
+}
+.main{
+    width:75%;
+    background-color: #c8f8f5;
+    height:100%;
+}
+.head{
+    width: 100%;
+    height:25%;
+}
+.profile{
+    height: 100%;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.profile img{
+    height:90px;
+    width: 90px;
+    border-radius: 49px;
+}
+.profile h3{
+    margin-top: 5px;
+    color: #6D829B;
+}
+.profile p{
+   color:#98A9BF;
+   font-size: small; 
+}
+.category{
+    height:50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color:#92A8BD;
+    font-size: 18px;
+
+}
+.options{
+   
+    display: flex;
+    align-items: center;
+    width: 150px;
+  
+}
+.options span{
+    margin:5px;
+}
+
+.foot{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 100%;
+    height:24%;
+}
+.join{
+    display: flex;
+    margin:20px;
+    width: 80%;
+    height:80%;
+    background: linear-gradient(#82c2af ,#81C9CB);
+    border-radius: 20px;
+    align-items: center;
+}
+.join p{
+    margin: 10px;
+    font-size: 20px;
+    color:white;
+}
+.join img{
+    height:60%;
+    width:70%;
+    margin: 5px;
+}
+.game-header{
+    display: flex;
+    flex-direction: column;
+    height: 19%;
+    width: 100%;
+    color: #6D829B;
+    align-items: flex-start;
+    margin:50px 100px;
+}
+.progress{
+    height:20px;
+    width: 300px;
+    border-radius: 10px;
+    background-color: #E2F9F7;
+    margin:5px;
+}
+.game-options{
+   width:100%;
+   height:80%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-evenly;
+   
+  
+}
+.game{
+    display: flex;
+  justify-content: space-between;
+  width: 80%;
+  height: 30%;
+  background-color: #EDFAF7;
+  align-items: center;
+  margin:20px;
+  border-radius: 15px;
+  padding:10px;
+}
+.image {
+    display: flex;
+    width:25%;
+    height:100px;
+
+}
+.image img{
+    flex-shrink: inherit;
+    width: 80%;
+    border-radius: 5px;
+   
+}
+.title{
+    display:flex;
+    flex-direction: column;
+    
+    align-items: flex-start;
+    color:#92A8BD;
+    font-size: 18px;
+}
+.title p{
+    font-size: small;
+    margin:5px;
+}
+.title .progress{
+    height:20px;
+    width: 300px;
+    border-radius: 10px;
+    background-color:#91E5DE;
+}
+.percentage{
+    color:#92A8BD;
+    font-size: 18px;
+    margin:10px;
+}
